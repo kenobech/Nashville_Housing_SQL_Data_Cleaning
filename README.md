@@ -1,9 +1,9 @@
-## Nashville_Housing_Data_Cleaning_and_Visualization_SQL
-# Introduction
+# Nashville_Housing_Data_Cleaning_and_Visualization_SQL
+## Introduction
 This project involves cleaning and visualizing data from the Nashville Housing dataset using SQL queries. This dataset contains comprehensive information about properties in Nashville, including sale prices, property characteristics, and owner details. The aim of this project is to prepare the data for analysis and create visualizations to gain insights into the Nashville housing market.
-# Dataset
+## Dataset
 This dataset has 56478 rows and 19 columns. The columns include: UniqueID, ParcelID, LandUse, PropertyAddress, SaleDate, SalePrice, LegalReference, SoldAsVacant, OwnerName, OwnerAddress, Acreage, TaxDistrict, LandValue, BuildingValue, TotalValue, YearBuilt, Bedrooms, FullBath and, HalfBath.
-# Data_Cleaning
+## Data_Cleaning
 The following procedures were used for data cleaning:
 a. Standardize Date Format
     Standardized the date format of the "SaleDate" column.
@@ -27,7 +27,7 @@ e. Remove Duplicates
 f. Delete Unused Columns
 
     Deleted unused columns for practice purposes.
-# Visualization
+## Visualization
 The cleaned data was visualized using SQL queries to understand various aspects of the Nashville housing market:
 
     Market Trends: Analyzed the distribution of SalePrice over time.
